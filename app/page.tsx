@@ -23,8 +23,18 @@ export default function Home() {
           <p className="text-xl text-gray-600 mb-8">
             Validate your startup idea before building
           </p>
-          <div className="bg-blue-600 text-white px-8 py-3 rounded-lg inline-block hover:bg-blue-700 cursor-pointer">
-            Start Validating
+          <div className="max-w-md mx-auto">
+            <div className="flex gap-2">
+              <input 
+                type="email"
+                placeholder="Enter your email"
+                className="flex-1 px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+              <button className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700">
+                Start Free
+              </button>
+            </div>
+            <p className="text-sm text-gray-500 mt-2">No credit card required</p>
           </div>
         </div>
 
