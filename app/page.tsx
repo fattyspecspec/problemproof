@@ -13,6 +13,7 @@ export default function Home() {
         </div>
       </div>
     </nav>
+
     <main className="min-h-screen bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center">
@@ -43,6 +44,45 @@ export default function Home() {
         </div>
       </div>
     </main>
+
+    <footer className="bg-gray-50 border-t">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div>
+            <h3 className="font-semibold mb-4">Product</h3>
+            <div className="space-y-2 text-sm text-gray-600">
+              <div>Features</div>
+              <div>Pricing</div>
+              <div>FAQ</div>
+            </div>
+          </div>
+          <div>
+            <h3 className="font-semibold mb-4">Company</h3>
+            <div className="space-y-2 text-sm text-gray-600">
+              <div>About</div>
+              <div>Blog</div>
+              <div>Careers</div>
+            </div>
+          </div>
+          <div>
+            <h3 className="font-semibold mb-4">Resources</h3>
+            <div className="space-y-2 text-sm text-gray-600">
+              <div>Documentation</div>
+              <div>Support</div>
+              <div>Terms</div>
+            </div>
+          </div>
+          <div>
+            <h3 className="font-semibold mb-4">Connect</h3>
+            <div className="space-y-2 text-sm text-gray-600">
+              <div>Twitter</div>
+              <div>LinkedIn</div>
+              <div>GitHub</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     </>
   )
 }
