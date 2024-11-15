@@ -1,5 +1,18 @@
 export default function Home() {
   return (
+    <>
+    <nav className="bg-white shadow">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between h-16 items-center">
+          <div className="font-bold text-xl">ProblemProof</div>
+          <div className="flex gap-4">
+            <div className="cursor-pointer">How it Works</div>
+            <div className="cursor-pointer">Pricing</div>
+            <div className="cursor-pointer">Login</div>
+          </div>
+        </div>
+      </div>
+    </nav>
     <main className="min-h-screen bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center">
@@ -30,5 +43,6 @@ export default function Home() {
         </div>
       </div>
     </main>
+    </>
   )
 }
