@@ -23,7 +23,7 @@ export default function Home() {
           <p className="text-xl text-gray-600 mb-8">
             Validate your startup idea before building
           </p>
-          <div className="max-w-md mx-auto">
+          <div className="max-w-md mx-auto mb-12">
             <div className="flex gap-2">
               <input 
                 type="email"
@@ -35,6 +35,23 @@ export default function Home() {
               </button>
             </div>
             <p className="text-sm text-gray-500 mt-2">No credit card required</p>
+          </div>
+
+          <div className="flex justify-center items-center gap-8 text-gray-500 text-sm">
+            <div>
+              <div className="font-bold text-2xl text-gray-900">1,000+</div>
+              <div>Ideas Validated</div>
+            </div>
+            <div className="h-8 w-px bg-gray-200"></div>
+            <div>
+              <div className="font-bold text-2xl text-gray-900">5,000+</div>
+              <div>Domain Experts</div>
+            </div>
+            <div className="h-8 w-px bg-gray-200"></div>
+            <div>
+              <div className="font-bold text-2xl text-gray-900">50,000+</div>
+              <div>Users Reached</div>
+            </div>
           </div>
         </div>
 
