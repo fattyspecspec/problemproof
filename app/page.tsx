@@ -84,6 +84,44 @@ export default function Home() {
             <p className="text-gray-600">Build a waitlist of interested users</p>
           </div>
         </div>
+
+        <div className="mt-32">
+          <h2 className="text-3xl font-bold text-center mb-16">How ProblemProof Works</h2>
+          <div className="space-y-12">
+            <div className="flex items-center gap-8">
+              <div className="w-1/2">
+                <div className="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                  <span className="text-blue-600 font-bold text-xl">1</span>
+                </div>
+                <h3 className="text-xl font-semibold mb-2">Describe Your Idea</h3>
+                <p className="text-gray-600">Tell us about your startup idea and what problem you're trying to solve. We'll help you refine your concept.</p>
+              </div>
+              <div className="w-1/2 bg-gray-100 h-64 rounded-lg"></div>
+            </div>
+
+            <div className="flex items-center gap-8 flex-row-reverse">
+              <div className="w-1/2">
+                <div className="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                  <span className="text-blue-600 font-bold text-xl">2</span>
+                </div>
+                <h3 className="text-xl font-semibold mb-2">Connect with Experts</h3>
+                <p className="text-gray-600">We'll match you with domain experts who understand your industry and can provide valuable feedback.</p>
+              </div>
+              <div className="w-1/2 bg-gray-100 h-64 rounded-lg"></div>
+            </div>
+
+            <div className="flex items-center gap-8">
+              <div className="w-1/2">
+                <div className="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                  <span className="text-blue-600 font-bold text-xl">3</span>
+                </div>
+                <h3 className="text-xl font-semibold mb-2">Validate with Users</h3>
+                <p className="text-gray-600">Build a waitlist of potential users and get real feedback on your solution before writing any code.</p>
+              </div>
+              <div className="w-1/2 bg-gray-100 h-64 rounded-lg"></div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
 
