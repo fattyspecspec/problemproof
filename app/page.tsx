@@ -28,7 +28,7 @@ export default function Home() {
               Problem<span className="text-blue-400">Proof</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 font-light mb-8">
-              Because "just build it" is the most expensive way to validate.
+            Because &ldquo;just build it&rdquo; is the most expensive way to validate.
             </p>
             
             {/* Waitlist Form Component */}
