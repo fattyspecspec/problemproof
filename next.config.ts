@@ -1,7 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  reactStrictMode: true,
+  experimental: {
+    reactRoot: true, // Enables React 18 debugging
+  },
 };
 
 export default nextConfig;
+
