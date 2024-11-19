@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';  // Removed useEffect since it's not used
 import supabase from '../supabaseClient';
 
 export function useProblems() {
@@ -24,6 +24,7 @@ export function useProblems() {
         .single();
 
       if (submitError) throw submitError;
+      setProblems(prev => [...prev, data]);  // Update problems array with new problem
       return { type: 'success', data };
     } catch (err) {
       setError(err.message);
